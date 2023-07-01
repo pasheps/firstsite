@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-block {
+    width: 100%;
+    height: 725px;
+    background: url(../kar/bg_image.png);
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    height: 80px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.phone-image {
+    margin-right: 20px;
+}
+
+.phone-text {
+    color: white;
+    margin-right: 180px;
+}
+
+.main-text-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 206px;
+    align-items: center;
+}
+
+.main-tittle {
+    color: white;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-size: 79px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.main-subtittle {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.main-button {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    width: 200px;
+    height: 70px;
+    border-radius: 20px;
+    background-color: #FFF;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    margin-top: 32px;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.about-me-block {
+    width: 100%;
+    padding-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 72px;
+    color: #000;
+}
+
+.section-tittle-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 37px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.underline-block {
+    width: 110px;
+    height: 3px;
+    margin-top: 15px;
+}
+
+.underline-black {
+    background: #000;
+}
+.person-info-area {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 90px;
+    gap: 97px;
+}
+.person-info-text {
+    color: #000;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 973px;
+}
+.two-text {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.img {
+    width: 273px;
+    height: 382px;
+}
+
+.skills {
+    width: 100%;
+    padding-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #1E2E3D;
+    padding-top: 72px;
+}
+.skills-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:#ffffff;
+    font-size: 37px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.underline-white {
+    background: #ffffff;
+}
+.skills-photo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 142px;
+    margin-top: 145px;
+    max-width: 953px;
+}
+.skills-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    color: #ffffff;
+    font-size: 37px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.conclusion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    padding-top: 100px;
+}
+.conclusion-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    gap: 15px;
+}
+.conclusion-text-1 {
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.conclusion-text-2 {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.conclusion-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 27px;
+    gap:20px;
+
+}
+.block {
+    display: flex;
+}
+
+@media screen and (max-width: 1420px) 
+{
+    .about-me-block{
+        padding-left: 40px;
+        padding-right: 20px;
+    }
+    .phone-text {
+        margin-right: 40px;
+    }
+}
+@media screen and (max-width: 990px) 
+{
+    .person-info-area {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 100px;
+    }
+    .skills-photo {
+        display: flex;
+        justify-content: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        flex-wrap: wrap;
+    }
+    .main-text-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .conclusion {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .main-tittle {
+        font-size: 40px;
+    }
+    .main-subtittle {
+        font-size: 20px;
+    }
+}
